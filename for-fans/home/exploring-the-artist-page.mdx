@@ -1,7 +1,7 @@
 ---
 title: "Exploring the Artist Page"
 description: "What you see when you land on an artist's Kollekt — links, socials, navigation, side menu."
-sidebarTitle: "Exploring the Artist Page"
+sidebarTitle: "Artist Page"
 ---
 
 # Exploring the Artist Page
@@ -39,6 +39,20 @@ After following one or more artists, the home screen becomes your fan feed showi
 ![Home feed with multiple artists](screenshots/home-feed-joined.png)
 
 **What you'll see:** Top-left: "< Gmail" back link and down chevron. Top-right: blue profile icon and hamburger menu. Your profile "Thainis" with bio "I love music 💖" and **gear/Edit** button. Below: a large artist card for **"Klara"** with cover photo, name, Subscribe button, and right arrow. A second artist card is partially visible below (different artist with darker photo).
+
+### Multiple Artists (Scrolled)
+
+![Feed scrolled to show second artist](screenshots/home-multiple-artist-view.png)
+
+**What you'll see:** Same layout as above. The "Klara" card is fully visible with Subscribe button and right arrow. Below it, a second artist card is partially visible showing a different cover photo, confirming that the feed is scrollable with multiple artist cards stacked vertically.
+
+### Artist Name Tooltip
+
+When hovering or long-pressing on an artist card, the artist name appears as a tooltip.
+
+![Artist name tooltip on card](screenshots/home-artist-name-tooltip.png)
+
+**What you'll see:** Top-left: "< Gmail" back link and down chevron. Top-right: blue profile icon and hamburger menu. Your profile "Thainis" with bio. A tooltip pill showing **"Klara"** appears above the artist card, which shows the cover photo with name, Subscribe button, and right arrow.
 
 ## Artist Page
 
@@ -80,6 +94,22 @@ Tap the **hamburger menu** icon (top-right) to open the side menu. This is your 
 
 **What you'll see:** Same side menu layout. Profile "Thainis" with right arrow. Search field: "Search artist name". Under **"Yours"**: **"Klara"** and **"Mikael Gabriel"** — each with avatars. Bottom: Help & Support, Find yours, and Log out links.
 
+### Searching for Artists
+
+The search field in the side menu lets you search for new artists to follow.
+
+![Side menu search results](screenshots/home-side-menu-search-artist.png)
+
+**What you'll see:** The side menu with **KOLLEKT K** logo and X close. Profile "Thainis" with right arrow. Search field with "Q Mikael" typed and clear (x) button. Results: **"Mikael Gabriel"** (green checkmark — already followed), **"Mikael Santos"**, **"Mikaela Davis"**, **"Mikael"**, **"Mikael Arvo"** — each with avatars and right arrows. The keyboard is open.
+
+### Help & Support
+
+Tap **Help & Support** in the side menu to open the Kollekt help center.
+
+![Kollekt Support help center](screenshots/home-side-menu-help-support.png)
+
+**What you'll see:** A white-background page with **"Kollekt Support"** header and a home icon (top-right). Heading: **"How can we help you?"** A search bar: **"Search our help center..."** Below: **"Browse All Categories"** with category pills — **"Getting Started"** ("Create your account and learn how to browse artist pages."), **"Payments & Billing"** ("Manage your payment methods, billing cycles, and subscriptions."), **"Following & Subscribing"** ("Learn how following works and how to support your favorite artists."), **"Chat & Community"** ("Learn how to join artist chats, interact with fans, and stay safe."). A chat widget icon appears in the bottom-right.
+
 ## Sharing
 
 Tap the **share icon** (curved arrow) on the artist page to open the Share Sheet.
@@ -98,15 +128,39 @@ Tapping **Other options** opens the device's native share sheet.
 
 **What you'll see:** The Kollekt Share Sheet dimmed behind the iOS native share sheet. At the top: a link icon with **"kollekt.io"** URL preview. Contact/device suggestions: "MacBook Air", "Opa", "Johtoryhmä", "Marica Koskinen". App row: **AirDrop**, **Messages**, **Mail**, **Instagram**. Action row: **Copy**, **Add to New Quick Note**, **Open in Chrome**, **View More**.
 
+### Sharing to Instagram Stories
+
+Tap **Share story** to post the Kollekt Card directly to Instagram Stories.
+
+![Kollekt Card in Instagram Stories](screenshots/home-sharing-external-ig-story-sticker.png)
+
+**What you'll see:** Instagram Stories editor. Top-left: "< Kollekt" back link and X close button. Top-right: text (Aa), sticker, effects, music, and more icons. Center: the Kollekt Card with the artist photo and "KOLLEKT K" branding on the geometric background. Bottom: "Add a caption..." text field. Footer: "Your story" and "Close Friends" share targets with a blue arrow send button.
+
+### Adding the Link Sticker
+
+Tap the sticker icon in Instagram and select the **Link** sticker. Paste the Kollekt URL.
+
+![Adding link in Instagram](screenshots/home-sharing-external-ig-story-add-kollekt-link.png)
+
+**What you'll see:** Instagram "Add link" screen. Top bar: "Cancel" (left), "Add link" title (center), "Done" (right). URL field contains `https://kollekt.io/klara/chat/direct-line`. Helper text: "People who view your story can tap the sticker to visit this link." Below: "+ Customise sticker text" option. The keyboard is open.
+
+### Final Story with Link
+
+![Final story with link sticker](screenshots/home-sharing-external-ig-story-kollekt-link-added.png)
+
+**What you'll see:** Instagram Stories editor with the Kollekt Card displayed. A white **link sticker** reading "🔗 KOLLEKT.IO" is placed over the artist photo. Top-right: text, sticker, effects, music, and more icons. Bottom: "Add a caption..." text field. Footer: "Your story" and "Close Friends" share targets with a blue arrow send button.
+
 ## Known Limitations
 
 - The empty state "Find Yours" button and the side menu "Find yours" link appear to lead to the same search — the exact flow difference is not documented.
 - Custom links the artist adds (Merch, New songs) open in the browser, but the external browser view is not shown in the current screenshots.
-- The Subscribe button on artist cards in the feed is visible but the subscription flow from this entry point is not demonstrated.
+- The Subscribe button on artist cards in the feed is visible but the subscription flow from this entry point is not demonstrated — the subscribe modal is documented in the Chat and Direct Line docs.
 - The green checkmark on already-followed artists in search results is visible but not explicitly explained in the UI.
+- Profile editing (tapping the gear/Edit button) is not covered in this doc.
 
 ## Related Features
 
 - [Browsing Direct Line](/for-fans/direct-line/browsing-direct-line) — Read the artist's one-way broadcast messages
 - [Participating in Chat](/for-fans/chat/participating-in-chat) — Talk with the artist and other fans
 - [Managing Your Fan Profile](/for-fans/profile/managing-your-profile) — Set your username, avatar, and bio
+- [Sharing Your Kollekt Page](/for-artists/sharing/sharing-your-page) — How the Share Sheet works from the artist side

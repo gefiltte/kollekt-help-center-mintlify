@@ -1,7 +1,7 @@
 ---
 title: "Managing Your Fan Profile"
 description: "Set your avatar, username, and bio. Manage your account and notification preferences."
-sidebarTitle: "Managing Your Profile"
+sidebarTitle: "Your Profile"
 ---
 
 # Managing Your Fan Profile
@@ -34,7 +34,7 @@ After selecting a photo, the avatar updates immediately on the Edit profile page
 
 ![Avatar updated with custom photo](screenshots/userprofile-edit-avatar-set.png)
 
-**What you'll see:** The Edit profile page with the avatar now showing a custom blue circular photo. The pencil icon remains on the avatar for future changes. Fields show: Email, Birthday, Phone Number (empty), Country ("Finland"), Username ("thainis"), Bio (empty).
+**What you'll see:** The Edit profile page with the avatar now showing a custom blue circular photo. The pencil icon remains on the avatar for future changes. Fields show: Email ("tina.lapiot@gmail.com"), Birthday ("1. Jul 2000"), Phone Number (empty), Country ("Finland"), Username ("thainis"), Bio (empty).
 
 ## Personal Details
 
@@ -44,7 +44,7 @@ Tap the **Username** field under Public Information to type a new username. This
 
 ![Typing a username](screenshots/userprofile-edit-username-typing.png)
 
-**What you'll see:** The profile page scrolled to show the fields. **Public Information** section: **Username** field active with **"Thainis"** being typed (cursor visible). **Bio** field empty below. The keyboard is open.
+**What you'll see:** The profile page scrolled to show the fields. Email (greyed out), Birthday ("1. Jul 2000"), Phone Number (empty), Country ("Finland" with dropdown). **Public Information** section: **Username** field active with **"Thainis"** being typed (cursor visible). **Bio** field empty below. The keyboard is open.
 
 ### Bio
 
@@ -54,13 +54,21 @@ Tap the **Bio** field to add a short description about yourself. This appears on
 
 **What you'll see:** The profile page scrolled to the same section. Username shows "Thainis" (saved). **Bio** field active with **"I love music"** being typed (cursor visible). The keyboard is open.
 
+### Phone Number
+
+Tap the **Phone Number** field to add your phone number.
+
+![Typing a phone number](screenshots/userprofile-edit-phone-typing.png)
+
+**What you'll see:** The Edit profile page with avatar (blue custom photo) and pencil icon. Email (greyed out), Birthday ("2. Jul 2000"). **Phone Number** field active with **"050123456789"** being typed (cursor visible). Country ("Finland"). The numeric keyboard is open.
+
 ### Birthday
 
 Tap the **Birthday** field to open a calendar date picker.
 
 ![Birthday calendar picker](screenshots/userprofile-edit-birthday-picker.png)
 
-**What you'll see:** The Edit profile page with a calendar overlay. Header: **"July 2000 >"** with left/right navigation arrows. A full month grid (MON–SUN) with the **2nd** highlighted in blue (selected date). Bottom of the calendar: **"Reset"** button (left) and a **blue checkmark** confirm button (right).
+**What you'll see:** The Edit profile page with a calendar overlay. Header: **"July 2000 >"** with left/right navigation arrows. A full month grid (MON–SUN) with the **2nd** highlighted in blue (selected date). Bottom of the calendar: **"Reset"** button (left) and a **blue checkmark** confirm button (right). Below the calendar: Username ("thainis") and Bio fields are partially visible.
 
 ### Country
 
@@ -68,7 +76,7 @@ Tap the **Country** field to open a dropdown list of countries.
 
 ![Country picker dropdown](screenshots/userprofile-edit-country-picker.png)
 
-**What you'll see:** The Edit profile page with a white dropdown overlay showing a scrollable list of countries. Top: **"✓ Select country"** (default/no selection). Countries listed alphabetically: Afghanistan, Åland Islands, Albania, Algeria, American Samoa, Andorra, Angola, Anguilla, Antarctica, Antigua and Barbuda, Argentina.
+**What you'll see:** The Edit profile page with a white dropdown overlay showing a scrollable list of countries. Top: **"✓ Select country"** (default/no selection). Countries listed alphabetically: Afghanistan, Åland Islands, Albania, Algeria, American Samoa, Andorra, Angola, Anguilla, Antarctica, Antigua and Barbuda, Argentina. The profile fields are partially visible behind the dropdown.
 
 ## Saving Changes
 
@@ -78,7 +86,7 @@ After filling in all fields, the bottom of the Edit profile page shows action bu
 
 ![Completed profile form](screenshots/userprofile-edit-filled.png)
 
-**What you'll see:** The profile page scrolled to the bottom. **Public Information**: Username ("Thainis"), Bio ("I love music 💖"). Three buttons at the bottom: **"Save"** (cream/light button), **"Cancel"** (text link), and **"Delete Account"** (red text link at the very bottom).
+**What you'll see:** The profile page scrolled to the bottom. Fields visible: Email (greyed out), Birthday ("1. Jul 2000"), Phone Number (empty), Country ("Finland" with dropdown). **Public Information**: Username ("Thainis"), Bio ("I love music 💖"). Three buttons at the bottom: **"Save"** (cream/light button), **"Cancel"** (text link), and **"Delete Account"** (red text link at the very bottom).
 
 ### Save Confirmation
 
@@ -86,7 +94,7 @@ After tapping **Save**, a success toast appears on the home screen.
 
 ![Profile updated toast](screenshots/userprofile-edit-saved-toast.png)
 
-**What you'll see:** The fan home screen with a green success banner at the top: **"Profile updated"** with subtitle "Profile updated successfully." Your profile section is visible below with the **gear/Edit** button. The Klara artist card with Subscribe button and right arrow is shown below.
+**What you'll see:** The fan home screen with a green success banner at the top: **"Profile updated"** with subtitle "Profile updated successfully." Your profile section is visible below (partially obscured) with the **gear/Edit** button. The Klara artist card with Subscribe button and right arrow is shown below.
 
 ## Deleting Your Account
 
@@ -96,7 +104,15 @@ Tap **Delete Account** (red text) at the bottom of the Edit profile page. A conf
 
 ![Delete account confirmation](screenshots/userprofile-delete-confirm.png)
 
-**What you'll see:** A white modal over the Edit profile page. **X** close button (left) and title **"Delete Account"**. Warning text: "This action cannot be undone. To confirm, please type your email address below:" An input field with the email typed. A cream **"Delete Account"** button and **"Cancel"** text link below. The keyboard is open.
+**What you'll see:** A white modal over the Edit profile page. **X** close button (left) and title **"Delete Account"**. Warning text: "This action cannot be undone. To confirm, please type your email address below:" An input field with placeholder: "Write Your Email To Confirm: (Tina.lapiot@Gmail.com)" showing **"tina.lapiot@gmail.com"** typed. A cream **"Delete Account"** button and **"Cancel"** text link below. The keyboard is open.
+
+### Deleting State
+
+After tapping **Delete Account** with the correct email entered, the deletion process begins.
+
+![Account deletion in progress](screenshots/userprofile-delete-deleting.png)
+
+**What you'll see:** The same Delete Account modal. The email field shows "tina.lapiot@gmail.com". The button now reads **"Deleting..."** (loading state). **"Cancel"** text link below. Behind the modal: the Edit profile page with Save and Cancel buttons partially visible.
 
 ## Known Limitations
 
