@@ -1,0 +1,115 @@
+{
+  "$schema": "https://mintlify.com/docs.json",
+  "theme": "mint",
+  "name": "Kollekt Help Center",
+  "logo": {
+    "light": "/logo/kollekt-light.svg",
+    "dark": "/logo/kollekt-dark.svg"
+  },
+  "favicon": "/favicon.svg",
+  "colors": {
+    "primary": "#7C3AED",
+    "light": "#A78BFA",
+    "dark": "#5B21B6"
+  },
+  "navigation": {
+    "tabs": [
+      {
+        "tab": "For Artists",
+        "groups": [
+          {
+            "group": "For Artists",
+            "pages": ["for-artists/index"]
+          },
+          {
+            "group": "Start Here",
+            "pages": ["for-artists/start-here/welcome"]
+          },
+          {
+            "group": "Your Artist Page",
+            "pages": [
+              "for-artists/home/artist-home",
+              "for-artists/home/editing-the-artist-page"
+            ]
+          },
+          {
+            "group": "Reaching Fans",
+            "pages": [
+              "for-artists/direct-line/sending-messages",
+              "for-artists/sharing/sharing-your-page"
+            ]
+          },
+          {
+            "group": "Community",
+            "pages": ["for-artists/chat/community-chat"]
+          },
+          {
+            "group": "Running the Space",
+            "pages": [
+              "for-artists/admin/admin-panel",
+              "for-artists/user-profile/edit-user-profile"
+            ]
+          },
+          {
+            "group": "Earning",
+            "pages": ["for-artists/subscriptions/setting-up-subscriptions"]
+          }
+        ]
+      },
+      {
+        "tab": "For Fans",
+        "groups": [
+          {
+            "group": "For Fans",
+            "pages": ["for-fans/index"]
+          },
+          {
+            "group": "Getting In",
+            "pages": ["for-fans/joining/joining-an-artist"]
+          },
+          {
+            "group": "Inside the Space",
+            "pages": [
+              "for-fans/home/exploring-the-artist-page",
+              "for-fans/direct-line/browsing-direct-line",
+              "for-fans/chat/participating-in-chat"
+            ]
+          },
+          {
+            "group": "Your Account",
+            "pages": [
+              "for-fans/profile/managing-your-profile",
+              "for-fans/notifications/enable-notifications"
+            ]
+          },
+          {
+            "group": "Subscribing",
+            "pages": ["for-fans/subscribing/subscribing-to-an-artist"]
+          }
+        ]
+      }
+    ]
+  },
+  "navbar": {
+    "links": [
+      {
+        "label": "Support",
+        "href": "mailto:support@kollekt.io"
+      }
+    ],
+    "primary": {
+      "type": "button",
+      "label": "Get Kollekt",
+      "href": "https://kollekt.io"
+    }
+  },
+  "footer": {
+    "socials": {
+      "instagram": "https://instagram.com/kollekt.io"
+    }
+  },
+  "feedback": {
+    "thumbsRating": true,
+    "suggestEdit": true
+  }
+}
