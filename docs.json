@@ -3,10 +3,10 @@
   "theme": "mint",
   "name": "Kollekt Help Center",
   "logo": {
-    "light": "/logo/kollekt-light.svg",
-    "dark": "/logo/kollekt-dark.svg"
+    "light": "/logo/kollekt-wordmark-light.png",
+    "dark": "/logo/kollekt-wordmark-dark.png"
   },
-  "favicon": "/favicon.svg",
+  "favicon": "/favicon.png",
   "colors": {
     "primary": "#7C3AED",
     "light": "#A78BFA",
@@ -19,11 +19,15 @@
         "groups": [
           {
             "group": "For Artists",
-            "pages": ["for-artists/index"]
+            "pages": [
+              "for-artists/index"
+            ]
           },
           {
             "group": "Start Here",
-            "pages": ["for-artists/start-here/welcome"]
+            "pages": [
+              "for-artists/start-here/welcome"
+            ]
           },
           {
             "group": "Your Artist Page",
@@ -41,7 +45,9 @@
           },
           {
             "group": "Community",
-            "pages": ["for-artists/chat/community-chat"]
+            "pages": [
+              "for-artists/chat/community-chat"
+            ]
           },
           {
             "group": "Running the Space",
@@ -52,7 +58,9 @@
           },
           {
             "group": "Earning",
-            "pages": ["for-artists/subscriptions/setting-up-subscriptions"]
+            "pages": [
+              "for-artists/subscriptions/setting-up-subscriptions"
+            ]
           }
         ]
       },
@@ -61,11 +69,15 @@
         "groups": [
           {
             "group": "For Fans",
-            "pages": ["for-fans/index"]
+            "pages": [
+              "for-fans/index"
+            ]
           },
           {
             "group": "Getting In",
-            "pages": ["for-fans/joining/joining-an-artist"]
+            "pages": [
+              "for-fans/joining/joining-an-artist"
+            ]
           },
           {
             "group": "Inside the Space",
@@ -84,7 +96,9 @@
           },
           {
             "group": "Subscribing",
-            "pages": ["for-fans/subscribing/subscribing-to-an-artist"]
+            "pages": [
+              "for-fans/subscribing/subscribing-to-an-artist"
+            ]
           }
         ]
       }
