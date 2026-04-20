@@ -152,7 +152,7 @@
     "suggestEdit": true
   },
   "appearance": {
-    "strict": true,
+    "strict": false,
     "default": "light"
   }
 }
