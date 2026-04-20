@@ -26,6 +26,8 @@
           {
             "group": "Start here",
             "pages": [
+              "for-artists/start-here/what-is-kollekt",
+              "for-artists/start-here/the-four-surfaces",
               "for-artists/start-here/welcome",
               "for-artists/start-here/your-first-10-minutes"
             ]
