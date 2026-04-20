@@ -18,63 +18,77 @@
         "tab": "For Artists",
         "groups": [
           {
-            "group": "For Artists",
+            "group": "Artist guide",
+            "icon": "book",
             "pages": [
-              "for-artists/index"
-            ]
-          },
-          {
-            "group": "Start here",
-            "pages": [
-              "for-artists/start-here/welcome",
-              "for-artists/start-here/your-first-10-minutes"
-            ]
-          },
-          {
-            "group": "Set up your page",
-            "pages": [
-              "for-artists/home/editing-the-artist-page",
-              "for-artists/home/add-and-organize-link-groups",
-              "for-artists/home/artist-home"
-            ]
-          },
-          {
-            "group": "Post to your Direct Line",
-            "pages": [
-              "for-artists/direct-line/sending-messages",
-              "for-artists/direct-line/attach-media",
-              "for-artists/direct-line/post-subscriber-only-content"
-            ]
-          },
-          {
-            "group": "Grow your community in Chat",
-            "pages": [
-              "for-artists/chat/community-chat",
-              "for-artists/chat/moderate-your-chat"
-            ]
-          },
-          {
-            "group": "Share and bring fans in",
-            "pages": [
-              "for-artists/sharing/sharing-your-page"
-            ]
-          },
-          {
-            "group": "Earn from your fans",
-            "pages": [
-              "for-artists/subscriptions/how-subscriptions-and-earnings-work",
-              "for-artists/subscriptions/set-your-subscription-price",
-              "for-artists/subscriptions/see-your-stats-and-revenue",
-              "for-artists/subscriptions/connect-your-payout-account"
-            ]
-          },
-          {
-            "group": "Manage your account",
-            "pages": [
-              "for-artists/user-profile/edit-user-profile",
-              "for-artists/admin/team-members-and-revenue-splits",
-              "for-artists/admin/manage-admins-and-roles",
-              "for-artists/user-profile/delete-or-pause-your-account"
+              {
+                "group": "Start here",
+                "icon": "flag",
+                "pages": [
+                  "for-artists/index",
+                  "for-artists/start-here/welcome",
+                  "for-artists/start-here/your-first-10-minutes"
+                ]
+              },
+              {
+                "group": "Your Artist page",
+                "icon": "id-card",
+                "expanded": false,
+                "pages": [
+                  "for-artists/home/editing-the-artist-page",
+                  "for-artists/home/add-and-organize-link-groups",
+                  "for-artists/home/artist-home"
+                ]
+              },
+              {
+                "group": "Direct Line",
+                "icon": "paper-plane",
+                "expanded": false,
+                "pages": [
+                  "for-artists/direct-line/sending-messages",
+                  "for-artists/direct-line/attach-media",
+                  "for-artists/direct-line/post-subscriber-only-content"
+                ]
+              },
+              {
+                "group": "Chat",
+                "icon": "comments",
+                "expanded": false,
+                "pages": [
+                  "for-artists/chat/community-chat",
+                  "for-artists/chat/moderate-your-chat"
+                ]
+              },
+              {
+                "group": "Share",
+                "icon": "share-nodes",
+                "expanded": false,
+                "pages": [
+                  "for-artists/sharing/sharing-your-page"
+                ]
+              },
+              {
+                "group": "Subscriptions & earnings",
+                "icon": "coins",
+                "expanded": false,
+                "pages": [
+                  "for-artists/subscriptions/how-subscriptions-and-earnings-work",
+                  "for-artists/subscriptions/set-your-subscription-price",
+                  "for-artists/subscriptions/see-your-stats-and-revenue",
+                  "for-artists/subscriptions/connect-your-payout-account"
+                ]
+              },
+              {
+                "group": "Account & team",
+                "icon": "circle-user",
+                "expanded": false,
+                "pages": [
+                  "for-artists/user-profile/edit-user-profile",
+                  "for-artists/user-profile/delete-or-pause-your-account",
+                  "for-artists/admin/team-members-and-revenue-splits",
+                  "for-artists/admin/manage-admins-and-roles"
+                ]
+              }
             ]
           }
         ]
@@ -83,36 +97,44 @@
         "tab": "For Fans",
         "groups": [
           {
-            "group": "For Fans",
+            "group": "Fan guide",
+            "icon": "book",
             "pages": [
-              "for-fans/index"
-            ]
-          },
-          {
-            "group": "Getting In",
-            "pages": [
-              "for-fans/joining/joining-an-artist"
-            ]
-          },
-          {
-            "group": "Inside the Space",
-            "pages": [
-              "for-fans/home/exploring-the-artist-page",
-              "for-fans/direct-line/browsing-direct-line",
-              "for-fans/chat/participating-in-chat"
-            ]
-          },
-          {
-            "group": "Your Account",
-            "pages": [
-              "for-fans/profile/managing-your-profile",
-              "for-fans/notifications/enable-notifications"
-            ]
-          },
-          {
-            "group": "Subscribing",
-            "pages": [
-              "for-fans/subscribing/subscribing-to-an-artist"
+              {
+                "group": "Getting in",
+                "icon": "door-open",
+                "pages": [
+                  "for-fans/index",
+                  "for-fans/joining/joining-an-artist"
+                ]
+              },
+              {
+                "group": "Inside the space",
+                "icon": "compass",
+                "expanded": false,
+                "pages": [
+                  "for-fans/home/exploring-the-artist-page",
+                  "for-fans/direct-line/browsing-direct-line",
+                  "for-fans/chat/participating-in-chat"
+                ]
+              },
+              {
+                "group": "Subscribing",
+                "icon": "heart",
+                "expanded": false,
+                "pages": [
+                  "for-fans/subscribing/subscribing-to-an-artist"
+                ]
+              },
+              {
+                "group": "Your account",
+                "icon": "circle-user",
+                "expanded": false,
+                "pages": [
+                  "for-fans/profile/managing-your-profile",
+                  "for-fans/notifications/enable-notifications"
+                ]
+              }
             ]
           }
         ]
@@ -150,9 +172,5 @@
   "feedback": {
     "thumbsRating": true,
     "suggestEdit": true
-  },
-  "appearance": {
-    "strict": false,
-    "default": "light"
   }
 }
