@@ -150,5 +150,9 @@
   "feedback": {
     "thumbsRating": true,
     "suggestEdit": true
+  },
+  "appearance": {
+    "strict": true,
+    "default": "light"
   }
 }
