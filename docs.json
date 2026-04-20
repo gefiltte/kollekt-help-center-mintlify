@@ -36,7 +36,12 @@
                 "icon": "bullhorn",
                 "expanded": false,
                 "pages": [
-                  "for-artists/sharing/sharing-your-page"
+                  "for-artists/sharing/sharing-your-page",
+                  "for-artists/bring-fans-in/instagram-bio",
+                  "for-artists/bring-fans-in/instagram-stories",
+                  "for-artists/bring-fans-in/live-shows",
+                  "for-artists/bring-fans-in/announce-to-your-fans",
+                  "for-artists/bring-fans-in/your-first-10-fans"
                 ]
               },
               {
