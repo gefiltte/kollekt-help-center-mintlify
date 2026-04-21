@@ -40,8 +40,7 @@
                   "for-artists/bring-fans-in/social-bios",
                   "for-artists/bring-fans-in/instagram-stories",
                   "for-artists/bring-fans-in/live-shows",
-                  "for-artists/bring-fans-in/announce-to-your-fans",
-                  "for-artists/bring-fans-in/your-first-10-fans"
+                  "for-artists/bring-fans-in/announce-to-your-fans"
                 ]
               },
               {
@@ -166,6 +165,10 @@
     {
       "source": "/for-artists/start-here/welcome",
       "destination": "/for-artists"
+    },
+    {
+      "source": "/for-artists/bring-fans-in/your-first-10-fans",
+      "destination": "/for-artists/bring-fans-in/announce-to-your-fans"
     }
   ],
   "footer": {
