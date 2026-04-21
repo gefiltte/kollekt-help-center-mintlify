@@ -4,40 +4,50 @@ description: "Split revenue across your team — manager, label, featured artist
 sidebarTitle: "Team and splits"
 ---
 
-The Payments screen manages how revenue is split between team members. Only the **page owner** can access and edit payment splits. Access it from your Artist page: ⋮ → **Payments**.
+The Payments screen is where you split revenue across a team. Manager, label, a featured collaborator — you assign a percentage and they get paid that share of every sale. Only the page owner can edit splits.
 
-## Non-owner view
+## What to know first
 
-If you're not the page owner, you'll see a locked screen with a warning message.
+- **Only the page owner sees the editable view.** Admins and moderators see a locked screen.
+- **Open Payments from the admin menu.** Three-dot menu on your Artist page, then **Payments**.
+- **The total can't exceed 100%.** Remaining percentage stays with the owner.
+- **Splits apply to all sales by default.** Per-product splits (for specific paid items) are a separate setting.
+
+## If you're not the owner
+
+Admins and moderators who open Payments see a locked card with a warning — payments are managed by the page owner.
 
 ![Payments locked for non-owner](screenshots/admin-payments-locked-non-owner.png)
 
-**What you'll see:** A card with a yellow **warning triangle** and the text **"Payments are managed by the page owner."**
+## The owner view
 
-## Earnings and default split (owner view)
+You'll see two sections:
 
-The owner sees two sections: **Earnings** (revenue from all sales, split into pending and paid) and **Default split** (how revenue divides across the team). Tap the info icon on either section for a tooltip explaining how the numbers work — Pending is queued for payout, Paid has been transferred, and Default split applies to all sales unless a product has its own split set. Total can't exceed 100%.
+- **Earnings.** Revenue from all sales, split into **Pending** (queued for payout) and **Paid** (already transferred).
+- **Default split.** How revenue divides across the team. Tap the info icon on either section for the in-app tooltip.
 
 ## Add someone to the split
 
-Tap **Add user to split** to add a team member and set their percentage.
+1. Tap **Add user to split**.
+2. Search for the team member by name or username.
+3. Enter their percentage.
+4. Tap the checkmark to confirm.
 
 ![Entering split percentage](screenshots/admin-payments-add-user-percent.png)
 
-**What you'll see:** The user row shows a text field for the percentage, a **checkmark** to confirm, and an **×** to cancel. Below: **Shared [percentage]%** summary and a **Save** button.
+The row shows **Shared [percentage]%** at the bottom. Tap **Save** to lock it in.
 
 ![Split added confirmation](screenshots/admin-payments-split-added.png)
 
-**What you'll see:** A green **Split added** banner with "Added [username] as payment recipient."
+A green **Split added** banner confirms.
 
 ## Remove someone from the split
 
-Swipe left on a team member's row (or tap the delete icon) to reveal **Remove**. The percentage returns to 100% for the remaining owner.
+Swipe left on the team member's row or tap the delete icon. **Remove** appears. The percentage returns to 100% for the remaining owner (or redistributes automatically if there are other splits).
 
-## Known limitations
+## Signs it's working
 
-- Only the page owner sees Payments — admins and moderators see the locked message.
-- Per-product splits are referenced in the tooltip but not demonstrated here.
+Your team member appears in the Default split list with the right percentage, the totals sum to 100%, and your next payout on Stripe shows the split distribution.
 
 ## Related
 
