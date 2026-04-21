@@ -66,7 +66,6 @@
                 "expanded": false,
                 "pages": [
                   "for-artists/subscriptions/how-subscriptions-and-earnings-work",
-                  "for-artists/subscriptions/set-your-subscription-price",
                   "for-artists/subscriptions/see-your-stats-and-revenue",
                   "for-artists/subscriptions/connect-your-payout-account",
                   "for-artists/admin/team-members-and-revenue-splits"
@@ -159,6 +158,10 @@
     {
       "source": "/for-artists/bring-fans-in/instagram-bio",
       "destination": "/for-artists/bring-fans-in/social-bios"
+    },
+    {
+      "source": "/for-artists/subscriptions/set-your-subscription-price",
+      "destination": "/for-artists/subscriptions/how-subscriptions-and-earnings-work"
     }
   ],
   "footer": {
