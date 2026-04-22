@@ -48,7 +48,7 @@
                 "icon": "house",
                 "expanded": false,
                 "pages": [
-                  "for-artists/start-here/the-four-surfaces",
+                  "for-artists/start-here/the-three-surfaces",
                   "for-artists/home/editing-the-artist-page",
                   "for-artists/home/add-and-organize-link-groups",
                   "for-artists/home/artist-home",
@@ -169,6 +169,10 @@
     {
       "source": "/for-artists/bring-fans-in/your-first-10-fans",
       "destination": "/for-artists/bring-fans-in/announce-to-your-fans"
+    },
+    {
+      "source": "/for-artists/start-here/the-four-surfaces",
+      "destination": "/for-artists/start-here/the-three-surfaces"
     }
   ],
   "footer": {
