@@ -22,7 +22,7 @@
             "icon": "book",
             "pages": [
               {
-                "group": "Start here",
+                "group": "Getting started",
                 "icon": "flag",
                 "pages": [
                   "for-artists/index",
@@ -36,11 +36,11 @@
                 "icon": "bullhorn",
                 "expanded": false,
                 "pages": [
+                  "for-artists/bring-fans-in/announce-to-your-fans",
                   "for-artists/sharing/sharing-your-page",
                   "for-artists/bring-fans-in/social-bios",
                   "for-artists/bring-fans-in/instagram-stories",
-                  "for-artists/bring-fans-in/live-shows",
-                  "for-artists/bring-fans-in/announce-to-your-fans"
+                  "for-artists/bring-fans-in/live-shows"
                 ]
               },
               {
