@@ -26,9 +26,9 @@
                 "icon": "flag",
                 "pages": [
                   "for-artists/index",
-                  "for-artists/start-here/what-is-kollekt",
                   "for-artists/start-here/claim-your-page",
-                  "for-artists/start-here/your-first-10-minutes"
+                  "for-artists/start-here/your-first-10-minutes",
+                  "for-artists/start-here/what-is-kollekt"
                 ]
               },
               {
