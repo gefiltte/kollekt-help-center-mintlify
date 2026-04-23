@@ -37,8 +37,7 @@
                 "expanded": false,
                 "pages": [
                   "for-artists/bring-fans-in/announce-to-your-fans",
-                  "for-artists/bring-fans-in/keep-the-momentum-going",
-                  "for-artists/bring-fans-in/if-fans-arent-joining-yet",
+                  "for-artists/bring-fans-in/after-launch",
                   "for-artists/sharing/sharing-your-page",
                   "for-artists/bring-fans-in/social-bios",
                   "for-artists/bring-fans-in/instagram-stories",
@@ -179,6 +178,14 @@
     {
       "source": "/for-artists/start-here/the-three-surfaces",
       "destination": "/for-artists/start-here/home-direct-line-and-chat"
+    },
+    {
+      "source": "/for-artists/bring-fans-in/keep-the-momentum-going",
+      "destination": "/for-artists/bring-fans-in/after-launch"
+    },
+    {
+      "source": "/for-artists/bring-fans-in/if-fans-arent-joining-yet",
+      "destination": "/for-artists/bring-fans-in/after-launch"
     }
   ],
   "footer": {
