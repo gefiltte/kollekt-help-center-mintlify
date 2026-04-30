@@ -115,7 +115,8 @@
                 "icon": "heart",
                 "expanded": false,
                 "pages": [
-                  "for-fans/subscribing/subscribing-to-an-artist"
+                  "for-fans/subscribing/subscribing-to-an-artist",
+                  "for-fans/subscribing/manage-your-subscription"
                 ]
               },
               {
