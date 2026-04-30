@@ -26,8 +26,8 @@
                 "icon": "flag",
                 "pages": [
                   "for-artists/index",
-                  "for-artists/start-here/claim-your-page",
-                  "for-artists/start-here/your-first-10-minutes"
+                  "for-artists/getting-started/claim-your-page",
+                  "for-artists/getting-started/your-first-10-minutes"
                 ]
               },
               {
@@ -37,7 +37,7 @@
                 "pages": [
                   "for-artists/bring-fans-in/announce-to-your-fans",
                   "for-artists/bring-fans-in/keep-the-momentum-going",
-                  "for-artists/sharing/sharing-your-page",
+                  "for-artists/bring-fans-in/sharing-your-page",
                   "for-artists/bring-fans-in/social-bios",
                   "for-artists/bring-fans-in/instagram-stories",
                   "for-artists/bring-fans-in/live-shows"
@@ -48,16 +48,17 @@
                 "icon": "house",
                 "expanded": false,
                 "pages": [
-                  "for-artists/home/artist-home",
-                  "for-artists/start-here/home",
-                  "for-artists/home/editing-the-artist-page",
-                  "for-artists/home/add-and-organize-link-groups",
-                  "for-artists/start-here/direct-line",
-                  "for-artists/direct-line/sending-messages",
-                  "for-artists/direct-line/post-subscriber-only-content",
-                  "for-artists/start-here/chat",
-                  "for-artists/chat/community-chat",
-                  "for-artists/chat/moderate-your-chat"
+                  "for-artists/your-space/artist-home",
+                  "for-artists/your-space/home",
+                  "for-artists/your-space/editing-the-artist-page",
+                  "for-artists/your-space/add-and-organize-link-groups",
+                  "for-artists/your-space/direct-line",
+                  "for-artists/your-space/sending-messages",
+                  "for-artists/your-space/post-subscriber-only-content",
+                  "for-artists/your-space/chat",
+                  "for-artists/your-space/community-chat",
+                  "for-artists/your-space/moderate-your-chat",
+                  "for-artists/your-space/manage-admins-and-roles"
                 ]
               },
               {
@@ -65,20 +66,19 @@
                 "icon": "coins",
                 "expanded": false,
                 "pages": [
-                  "for-artists/subscriptions/how-subscriptions-and-earnings-work",
-                  "for-artists/subscriptions/see-your-stats-and-revenue",
-                  "for-artists/subscriptions/connect-your-payout-account",
-                  "for-artists/admin/team-members-and-revenue-splits"
+                  "for-artists/earn/how-subscriptions-and-earnings-work",
+                  "for-artists/earn/see-your-stats-and-revenue",
+                  "for-artists/earn/connect-your-payout-account",
+                  "for-artists/earn/team-members-and-revenue-splits"
                 ]
               },
               {
-                "group": "Run the space",
-                "icon": "sliders",
+                "group": "Your account",
+                "icon": "circle-user",
                 "expanded": false,
                 "pages": [
-                  "for-artists/admin/manage-admins-and-roles",
-                  "for-artists/user-profile/edit-user-profile",
-                  "for-artists/user-profile/delete-or-pause-your-account"
+                  "for-artists/your-account/edit-user-profile",
+                  "for-artists/your-account/delete-or-pause-your-account"
                 ]
               }
             ]
@@ -97,7 +97,7 @@
                 "icon": "door-open",
                 "pages": [
                   "for-fans/index",
-                  "for-fans/joining/joining-an-artist"
+                  "for-fans/getting-in/joining-an-artist"
                 ]
               },
               {
@@ -105,9 +105,9 @@
                 "icon": "compass",
                 "expanded": false,
                 "pages": [
-                  "for-fans/home/exploring-the-artist-page",
-                  "for-fans/direct-line/browsing-direct-line",
-                  "for-fans/chat/participating-in-chat"
+                  "for-fans/inside-the-space/exploring-the-artist-page",
+                  "for-fans/inside-the-space/browsing-direct-line",
+                  "for-fans/inside-the-space/participating-in-chat"
                 ]
               },
               {
@@ -124,9 +124,9 @@
                 "icon": "circle-user",
                 "expanded": false,
                 "pages": [
-                  "for-fans/profile/managing-your-profile",
-                  "for-fans/profile/delete-your-account",
-                  "for-fans/notifications/enable-notifications"
+                  "for-fans/your-account/managing-your-profile",
+                  "for-fans/your-account/delete-your-account",
+                  "for-fans/your-account/enable-notifications"
                 ]
               }
             ]
@@ -149,58 +149,46 @@
     }
   },
   "redirects": [
-    {
-      "source": "/for-artists/subscriptions/setting-up-subscriptions",
-      "destination": "/for-artists/subscriptions/how-subscriptions-and-earnings-work"
-    },
-    {
-      "source": "/for-artists/admin/admin-panel",
-      "destination": "/for-artists/subscriptions/see-your-stats-and-revenue"
-    },
-    {
-      "source": "/for-artists/bring-fans-in/instagram-bio",
-      "destination": "/for-artists/bring-fans-in/social-bios"
-    },
-    {
-      "source": "/for-artists/subscriptions/set-your-subscription-price",
-      "destination": "/for-artists/subscriptions/how-subscriptions-and-earnings-work"
-    },
-    {
-      "source": "/for-artists/start-here/welcome",
-      "destination": "/for-artists"
-    },
-    {
-      "source": "/for-artists/start-here/what-is-kollekt",
-      "destination": "/for-artists"
-    },
-    {
-      "source": "/for-artists/bring-fans-in/your-first-10-fans",
-      "destination": "/for-artists/bring-fans-in/announce-to-your-fans"
-    },
-    {
-      "source": "/for-artists/start-here/the-four-surfaces",
-      "destination": "/for-artists/start-here/home"
-    },
-    {
-      "source": "/for-artists/start-here/the-three-surfaces",
-      "destination": "/for-artists/start-here/home"
-    },
-    {
-      "source": "/for-artists/start-here/home-direct-line-and-chat",
-      "destination": "/for-artists/start-here/home"
-    },
-    {
-      "source": "/for-artists/bring-fans-in/after-launch",
-      "destination": "/for-artists/bring-fans-in/keep-the-momentum-going"
-    },
-    {
-      "source": "/for-artists/bring-fans-in/if-fans-arent-joining-yet",
-      "destination": "/for-artists/bring-fans-in/keep-the-momentum-going"
-    },
-    {
-      "source": "/for-artists/direct-line/attach-media",
-      "destination": "/for-artists/direct-line/sending-messages"
-    }
+    { "source": "/for-artists/start-here/claim-your-page", "destination": "/for-artists/getting-started/claim-your-page" },
+    { "source": "/for-artists/start-here/your-first-10-minutes", "destination": "/for-artists/getting-started/your-first-10-minutes" },
+    { "source": "/for-artists/sharing/sharing-your-page", "destination": "/for-artists/bring-fans-in/sharing-your-page" },
+    { "source": "/for-artists/home/artist-home", "destination": "/for-artists/your-space/artist-home" },
+    { "source": "/for-artists/start-here/home", "destination": "/for-artists/your-space/home" },
+    { "source": "/for-artists/home/editing-the-artist-page", "destination": "/for-artists/your-space/editing-the-artist-page" },
+    { "source": "/for-artists/home/add-and-organize-link-groups", "destination": "/for-artists/your-space/add-and-organize-link-groups" },
+    { "source": "/for-artists/start-here/direct-line", "destination": "/for-artists/your-space/direct-line" },
+    { "source": "/for-artists/direct-line/sending-messages", "destination": "/for-artists/your-space/sending-messages" },
+    { "source": "/for-artists/direct-line/post-subscriber-only-content", "destination": "/for-artists/your-space/post-subscriber-only-content" },
+    { "source": "/for-artists/start-here/chat", "destination": "/for-artists/your-space/chat" },
+    { "source": "/for-artists/chat/community-chat", "destination": "/for-artists/your-space/community-chat" },
+    { "source": "/for-artists/chat/moderate-your-chat", "destination": "/for-artists/your-space/moderate-your-chat" },
+    { "source": "/for-artists/admin/manage-admins-and-roles", "destination": "/for-artists/your-space/manage-admins-and-roles" },
+    { "source": "/for-artists/subscriptions/how-subscriptions-and-earnings-work", "destination": "/for-artists/earn/how-subscriptions-and-earnings-work" },
+    { "source": "/for-artists/subscriptions/see-your-stats-and-revenue", "destination": "/for-artists/earn/see-your-stats-and-revenue" },
+    { "source": "/for-artists/subscriptions/connect-your-payout-account", "destination": "/for-artists/earn/connect-your-payout-account" },
+    { "source": "/for-artists/admin/team-members-and-revenue-splits", "destination": "/for-artists/earn/team-members-and-revenue-splits" },
+    { "source": "/for-artists/user-profile/edit-user-profile", "destination": "/for-artists/your-account/edit-user-profile" },
+    { "source": "/for-artists/user-profile/delete-or-pause-your-account", "destination": "/for-artists/your-account/delete-or-pause-your-account" },
+    { "source": "/for-fans/joining/joining-an-artist", "destination": "/for-fans/getting-in/joining-an-artist" },
+    { "source": "/for-fans/home/exploring-the-artist-page", "destination": "/for-fans/inside-the-space/exploring-the-artist-page" },
+    { "source": "/for-fans/direct-line/browsing-direct-line", "destination": "/for-fans/inside-the-space/browsing-direct-line" },
+    { "source": "/for-fans/chat/participating-in-chat", "destination": "/for-fans/inside-the-space/participating-in-chat" },
+    { "source": "/for-fans/profile/managing-your-profile", "destination": "/for-fans/your-account/managing-your-profile" },
+    { "source": "/for-fans/profile/delete-your-account", "destination": "/for-fans/your-account/delete-your-account" },
+    { "source": "/for-fans/notifications/enable-notifications", "destination": "/for-fans/your-account/enable-notifications" },
+    { "source": "/for-artists/subscriptions/setting-up-subscriptions", "destination": "/for-artists/earn/how-subscriptions-and-earnings-work" },
+    { "source": "/for-artists/admin/admin-panel", "destination": "/for-artists/earn/see-your-stats-and-revenue" },
+    { "source": "/for-artists/bring-fans-in/instagram-bio", "destination": "/for-artists/bring-fans-in/social-bios" },
+    { "source": "/for-artists/subscriptions/set-your-subscription-price", "destination": "/for-artists/earn/how-subscriptions-and-earnings-work" },
+    { "source": "/for-artists/start-here/welcome", "destination": "/for-artists" },
+    { "source": "/for-artists/start-here/what-is-kollekt", "destination": "/for-artists" },
+    { "source": "/for-artists/bring-fans-in/your-first-10-fans", "destination": "/for-artists/bring-fans-in/announce-to-your-fans" },
+    { "source": "/for-artists/start-here/the-four-surfaces", "destination": "/for-artists/your-space/home" },
+    { "source": "/for-artists/start-here/the-three-surfaces", "destination": "/for-artists/your-space/home" },
+    { "source": "/for-artists/start-here/home-direct-line-and-chat", "destination": "/for-artists/your-space/home" },
+    { "source": "/for-artists/bring-fans-in/after-launch", "destination": "/for-artists/bring-fans-in/keep-the-momentum-going" },
+    { "source": "/for-artists/bring-fans-in/if-fans-arent-joining-yet", "destination": "/for-artists/bring-fans-in/keep-the-momentum-going" },
+    { "source": "/for-artists/direct-line/attach-media", "destination": "/for-artists/your-space/sending-messages" }
   ],
   "footer": {
     "socials": {
