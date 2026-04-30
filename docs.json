@@ -105,9 +105,9 @@
                 "icon": "compass",
                 "expanded": false,
                 "pages": [
-                  "for-fans/inside-the-space/exploring-the-artist-page",
-                  "for-fans/inside-the-space/browsing-direct-line",
-                  "for-fans/inside-the-space/participating-in-chat"
+                  "for-fans/inside-kollekt/exploring-the-artist-page",
+                  "for-fans/inside-kollekt/browsing-direct-line",
+                  "for-fans/inside-kollekt/participating-in-chat"
                 ]
               },
               {
@@ -170,9 +170,12 @@
     { "source": "/for-artists/user-profile/edit-user-profile", "destination": "/for-artists/your-account/edit-user-profile" },
     { "source": "/for-artists/user-profile/delete-or-pause-your-account", "destination": "/for-artists/your-account/delete-or-pause-your-account" },
     { "source": "/for-fans/joining/joining-an-artist", "destination": "/for-fans/getting-in/joining-an-artist" },
-    { "source": "/for-fans/home/exploring-the-artist-page", "destination": "/for-fans/inside-the-space/exploring-the-artist-page" },
-    { "source": "/for-fans/direct-line/browsing-direct-line", "destination": "/for-fans/inside-the-space/browsing-direct-line" },
-    { "source": "/for-fans/chat/participating-in-chat", "destination": "/for-fans/inside-the-space/participating-in-chat" },
+    { "source": "/for-fans/home/exploring-the-artist-page", "destination": "/for-fans/inside-kollekt/exploring-the-artist-page" },
+    { "source": "/for-fans/direct-line/browsing-direct-line", "destination": "/for-fans/inside-kollekt/browsing-direct-line" },
+    { "source": "/for-fans/chat/participating-in-chat", "destination": "/for-fans/inside-kollekt/participating-in-chat" },
+    { "source": "/for-fans/inside-the-space/exploring-the-artist-page", "destination": "/for-fans/inside-kollekt/exploring-the-artist-page" },
+    { "source": "/for-fans/inside-the-space/browsing-direct-line", "destination": "/for-fans/inside-kollekt/browsing-direct-line" },
+    { "source": "/for-fans/inside-the-space/participating-in-chat", "destination": "/for-fans/inside-kollekt/participating-in-chat" },
     { "source": "/for-fans/profile/managing-your-profile", "destination": "/for-fans/your-account/managing-your-profile" },
     { "source": "/for-fans/profile/delete-your-account", "destination": "/for-fans/your-account/delete-your-account" },
     { "source": "/for-fans/notifications/enable-notifications", "destination": "/for-fans/your-account/enable-notifications" },
