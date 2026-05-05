@@ -1,6 +1,6 @@
 {
   "$schema": "https://mintlify.com/docs.json",
-  "theme": "linden",
+  "theme": "mint",
   "name": "Kollekt Help Center",
   "logo": {
     "light": "/logo/kollekt-wordmark-light.png",
