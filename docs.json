@@ -205,5 +205,13 @@
   "appearance": {
     "strict": false,
     "default": "light"
+  },
+  "fonts": {
+    "heading": {
+      "family": "Open Sans"
+    },
+    "body": {
+      "family": "Open Sans"
+    }
   }
 }
