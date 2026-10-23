@@ -1,7 +1,7 @@
 {
   "$schema": "https://mintlify.com/docs.json",
   "theme": "mint",
-  "name": "Kollekt Help Center",
+  "name": "Kollekt Guide",
   "logo": {
     "light": "/logo/kollekt-wordmark-light.png",
     "dark": "/logo/kollekt-wordmark-dark.png"
@@ -15,7 +15,7 @@
   "navigation": {
     "tabs": [
       {
-        "tab": "For Artists",
+        "tab": "For artists",
         "groups": [
           {
             "group": "Artist guide",
@@ -86,7 +86,7 @@
         ]
       },
       {
-        "tab": "For Fans",
+        "tab": "For members",
         "groups": [
           {
             "group": "Fan guide",
@@ -139,7 +139,7 @@
     "links": [
       {
         "label": "Support",
-        "href": "mailto:support@kollekt.io"
+        "href": "https://help.kollekt.io/en/"
       }
     ],
     "primary": {
