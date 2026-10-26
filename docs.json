@@ -44,18 +44,15 @@
                 ]
               },
               {
-                "group": "Your space",
+                "group": "Your Kollekt",
                 "icon": "house",
                 "expanded": false,
                 "pages": [
                   "for-artists/your-space/artist-home",
-                  "for-artists/your-space/home",
                   "for-artists/your-space/editing-the-artist-page",
                   "for-artists/your-space/add-and-organize-link-groups",
-                  "for-artists/your-space/direct-line",
                   "for-artists/your-space/sending-messages",
                   "for-artists/your-space/post-subscriber-only-content",
-                  "for-artists/your-space/chat",
                   "for-artists/your-space/community-chat",
                   "for-artists/your-space/moderate-your-chat",
                   "for-artists/your-space/manage-admins-and-roles"
@@ -149,6 +146,21 @@
     }
   },
   "redirects": [
+    {
+      "source": "/for-artists/your-space/chat",
+      "destination": "/for-artists/your-space/artist-home#chats",
+      "permanent": true
+    },
+    {
+      "source": "/for-artists/your-space/direct-line",
+      "destination": "/for-artists/your-space/artist-home#direct-line",
+      "permanent": true
+    },
+    {
+      "source": "/for-artists/your-space/home",
+      "destination": "/for-artists/your-space/artist-home#home",
+      "permanent": true
+    },
     { "source": "/for-artists/start-here/claim-your-page", "destination": "/for-artists/getting-started/claim-your-page" },
     { "source": "/for-artists/start-here/your-first-10-minutes", "destination": "/for-artists/getting-started/your-first-10-minutes" },
     { "source": "/for-artists/sharing/sharing-your-page", "destination": "/for-artists/bring-fans-in/sharing-your-page" },
