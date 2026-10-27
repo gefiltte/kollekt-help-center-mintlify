@@ -22,61 +22,63 @@
             "icon": "book",
             "pages": [
               {
-                "group": "Getting started",
+                "group": "Start",
                 "icon": "flag",
                 "pages": [
                   "for-artists/index",
                   "for-artists/getting-started/claim-your-page",
-                  "for-artists/getting-started/your-first-10-minutes",
-                  "for-artists/getting-started/working-as-a-team"
+                  "for-artists/your-space/artist-home",
+                  "for-artists/your-space/editing-the-artist-page",
+                  "for-artists/your-space/add-and-organize-link-groups"
                 ]
               },
               {
-                "group": "Bring members in",
+                "group": "Grow",
                 "icon": "bullhorn",
                 "expanded": false,
                 "pages": [
                   "for-artists/bring-fans-in/announce-to-your-fans",
                   "for-artists/bring-fans-in/keep-the-momentum-going",
-                  "for-artists/bring-fans-in/sharing-your-page",
+                  "for-artists/bring-fans-in/members-bring-members",
                   "for-artists/bring-fans-in/social-bios",
                   "for-artists/bring-fans-in/instagram-stories",
                   "for-artists/bring-fans-in/live-shows",
-                  "for-artists/bring-fans-in/members-bring-members"
-                ]
-              },
-              {
-                "group": "Your Kollekt",
-                "icon": "house",
-                "expanded": false,
-                "pages": [
-                  "for-artists/your-space/artist-home",
-                  "for-artists/your-space/editing-the-artist-page",
-                  "for-artists/your-space/add-and-organize-link-groups",
-                  "for-artists/your-space/sending-messages",
-                  "for-artists/your-space/post-subscriber-only-content",
-                  "for-artists/your-space/community-chat",
-                  "for-artists/your-space/moderate-your-chat",
-                  "for-artists/your-space/manage-admins-and-roles",
-                  "for-artists/your-space/drops",
-                  "for-artists/your-space/healthy-community"
+                  "for-artists/bring-fans-in/sharing-your-page"
                 ]
               },
               {
                 "group": "Earn",
                 "icon": "coins",
-                "expanded": false,
                 "pages": [
                   "for-artists/earn/how-subscriptions-and-earnings-work",
+                  "for-artists/your-space/drops",
+                  "for-artists/your-space/post-subscriber-only-content",
                   "for-artists/earn/see-your-stats-and-revenue",
-                  "for-artists/earn/connect-your-payout-account",
+                  "for-artists/earn/connect-your-payout-account"
+                ]
+              },
+              {
+                "group": "Community",
+                "icon": "comments",
+                "pages": [
+                  "for-artists/your-space/healthy-community",
+                  "for-artists/your-space/sending-messages",
+                  "for-artists/your-space/community-chat",
+                  "for-artists/your-space/moderate-your-chat"
+                ]
+              },
+              {
+                "group": "Team",
+                "icon": "users",
+                "pages": [
+                  "for-artists/getting-started/working-as-a-team",
+                  "for-artists/your-space/manage-admins-and-roles",
                   "for-artists/earn/team-members-and-revenue-splits"
                 ]
               },
               {
                 "group": "Your account",
                 "icon": "circle-user",
-                "expanded": false,
                 "pages": [
                   "for-artists/your-account/edit-user-profile",
                   "for-artists/your-account/delete-or-pause-your-account"
@@ -150,6 +152,11 @@
     }
   },
   "redirects": [
+    {
+      "source": "/for-artists/getting-started/your-first-10-minutes",
+      "destination": "/for-artists/your-space/artist-home",
+      "permanent": true
+    },
     {
       "source": "/for-artists/your-space/chat",
       "destination": "/for-artists/your-space/artist-home#chats",
